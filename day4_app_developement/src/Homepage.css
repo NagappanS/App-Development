@@ -1,0 +1,10 @@
+/* Optional custom styles */
+.AppBar {
+    background-color: #3f51b5;
+  }
+  
+  .main {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
