@@ -1,0 +1,13 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+body {
+  background-color: #f0f8ff; /* Light background color for the website */
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Default font for the body */
+}
+
+h2 {
+  color:#E64833; /* Dark color for section titles */
+  font-family: 'Poppins', sans-serif; /* Stylish font for headings */
+}
