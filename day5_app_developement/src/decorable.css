@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif; 
+   padding: 0;
+    background-color: #f8f9fa;
+
+  } 
+ 
+  
+  .App {
+    text-align: center;
+  }
+  
+  .titless {
+    font-size: 2rem;
+    color: #333;
+    margin: 20px;
+  }
+  
+  .grid-containers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .grid-items {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: relative;
+  }
+  
+  .item-images {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .item-names {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .action-buttonss {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .action-buttonss:hover {
+    background-color: #0056b3;
+  }
+  
+  .favorite-icon {
+    color: #ffdf00;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .submit-butto {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 20px;
+  }
+  
+  .submit-butto:hover {
+    background-color: #218838;
+  }
+  

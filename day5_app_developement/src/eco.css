@@ -1,0 +1,309 @@
+.bod {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .apps {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #388e3c;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .grid-containe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 0 20px;
+    justify-items: center;
+  }
+  
+  .grid-ite {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    color: #ffffff;
+  }
+  
+  .grid-ite:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .grid-ite img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .item-nam {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .add-but {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .add-but:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+  }
+  
+  .quantity-input {
+    width: 60px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .quantity-input:focus {
+    outline: none;
+    border-color: #388e3c;
+  }
+  
+  .quantity-label {
+    font-size: 0.9em;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .details {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+  }
+  
+  .submit-buttons {
+    margin-top: 30px;
+    padding: 15px 50px;
+    font-size: 1.5em;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .submit-buttons:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .grid-containe {
+      grid-template-columns: 1fr;
+    }
+  
+    .grid-ite {
+      max-width: 100%;
+    }
+  }
+  
+  /* Specific colors for each grid item */
+  .grid-ite:nth-child(1) {
+    background-color: #ffab91; /* Light Coral */
+  }
+  
+  .grid-ite:nth-child(2) {
+    background-color: #ffcc80; /* Light Orange */
+  }
+  
+  .grid-ite:nth-child(3) {
+    background-color: #e6ee9c; /* Light Yellow-Green */
+  }
+  
+  .grid-ite:nth-child(4) {
+    background-color: #80deea; /* Light Cyan */
+  }
+  
+  .grid-ite:nth-child(5) {
+    background-color: #b39ddb; /* Light Purple */
+  }
+  
+  .grid-ite:nth-child(6) {
+    background-color: #f48fb1; /* Light Pink */
+  }
+  
+  .grid-ite:nth-child(7) {
+    background-color: #90caf9; /* Light Blue */
+  }
+  
+  .grid-ite:nth-child(8) {
+    background-color: #a5d6a7; /* Light Green */
+  }
+  
+  .grid-ite:nth-child(9) {
+    background-color: #ce93d8; /* Light Lavender */
+  }
+  
+  .grid-ite:nth-child(10) {
+    background-color: #ff7043; /* Light Red-Orange */
+  }
+  
+  .grid-ite:nth-child(11) {
+    background-color: #7e57c2; /* Medium Purple */
+  }
+  
+  .grid-ite:nth-child(12) {
+    background-color: #26a69a; /* Medium Teal */
+  }
+  
+  .grid-ite:nth-child(13) {
+    background-color: #ffca28; /* Light Amber */
+  }
+  
+  .grid-ite:nth-child(14) {
+    background-color: #ab47bc; /* Medium Violet */
+  }
+  
+  .grid-ite:nth-child(15) {
+    background-color: #009688; /* Medium Green-Blue */
+  }
+  
+  .grid-ite:nth-child(16) {
+    background-color: #ff8a80; /* Light Red */
+  }
+  
+  .grid-ite:nth-child(17) {
+    background-color: #ffd180; /* Light Orange-Yellow */
+  }
+  
+  .grid-ite:nth-child(18) {
+    background-color: #b0bec5; /* Light Blue-Grey */
+  }
+  
+  /* Unique colors for each add button */
+  .grid-ite:nth-child(1) .add-but {
+    background-color: #ca5c52;
+  }
+  
+  .grid-ite:nth-child(2) .add-but {
+    background-color: #e7962c;
+  }
+  
+  .grid-ite:nth-child(3) .add-but {
+    background-color: #c8d54b;
+  }
+  
+  .grid-ite:nth-child(4) .add-but {
+    background-color: #2ebbcd;
+  }
+  
+  .grid-ite:nth-child(5) .add-but {
+    background-color: #724fae;
+  }
+  te
+  .grid-ite:nth-child(6) .add-but {
+    background-color: #963153;
+  }
+  
+  .grid-ite:nth-child(7) .add-but {
+    background-color: #386c97;
+  }
+  
+  .grid-ite:nth-child(8) .add-but {
+    background-color: #429746;
+  }
+  
+  .grid-ite:nth-child(9) .add-but {
+    background-color: #71307d;
+  }
+  
+  .grid-ite:nth-child(10) .add-button {
+    background-color: #9f543d;
+  }
+  
+  .grid-ite:nth-child(11) .add-but {
+    background-color: #58388f;
+  }
+  
+  .grid-ite:nth-child(12) .add-but {
+    background-color: #1b867b;
+  }
+  
+  .grid-ite:nth-child(13) .add-but {
+    background-color: #8e7732;
+  }
+  
+  .grid-ite:nth-child(14) .add-but {
+    background-color: #2b0233;
+  }
+  
+  .grid-ite:nth-child(15) .add-but {
+    background-color: #034b44;
+  }
+  
+  .grid-ite:nth-child(16) .add-but {
+    background-color: #a22f24;
+  }
+  
+  .grid-ite:nth-child(17) .add-but {
+    background-color: #926619;
+  }
+  
+  .grid-ite:nth-child(18) .add-but {
+    background-color: #5d8498;
+  }
+  .eco-info {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+  }
+  
+  .eco-info h2 {
+    color: #388e3c;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .eco-info p {
+    font-size: 1em;
+    line-height: 1.6
+  }
+  
+  

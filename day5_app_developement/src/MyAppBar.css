@@ -1,0 +1,31 @@
+.appBar {
+  background-color: #1976d2; 
+}
+
+.logo {
+  height: 40px; 
+  margin-right: 16px; 
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.profileName {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.drawer {
+  width: 250px;
+}
+
+.drawer .MuiListItemText-primary {
+  color: #1976d2; 
+}
