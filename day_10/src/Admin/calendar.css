@@ -1,0 +1,58 @@
+/* src/Calendar.css */
+
+/* Overall calendar styling */
+.react-calendar {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Default tile style */
+  .react-calendar__tile {
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Style for the currently active tile */
+  .react-calendar__tile--active {
+    background-color: #ffbb28 !important; /* Primary color for active tile */
+    color: white !important;
+  }
+  
+  /* Style for today's date */
+  .react-calendar__tile--now {
+    border: 2px solid #ffbb28;
+    border-radius: 50%;
+  }
+  
+  /* Highlight tiles with events */
+  .highlight-tile {
+    background-color: #ffbb28 !important;
+    color: white !important;
+  }
+  
+  /* Hover effect for tiles */
+  .react-calendar__tile:hover {
+    background-color: #fbbd08;
+    color: #fff;
+  }
+  
+  /* Custom colors for selected dates with events */
+  .react-calendar__tile--selected {
+    background-color: aquamarine !important; /* Green for selected dates */
+    color: white !important;
+  }
+  
+  /* Custom colors for dates with multiple events */
+  .react-calendar__tile--multiple-events {
+    background-color: #2196f3 !important; /* Blue for dates with multiple events */
+    color: white !important;
+  }
+
+  .highlight-tile {
+    background-color: green !important;
+    color: #fff !important;
+    border-radius: 10%;
+  }
+  
+  

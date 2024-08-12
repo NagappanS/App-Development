@@ -1,0 +1,73 @@
+.Appss {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App-header h1 {
+    font-size: 2.5em;
+    color: #ff69b4; 
+  }
+  
+  .App-header h2 {
+    font-size: 1.5em;
+    color: #ffa07a; 
+  }
+  
+  .order-button {
+    background-color: #ff69b4; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+  
+  .order-button:hover {
+    background-color: #ff1493; 
+  }
+  
+  .order-success {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background-color: white;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    width: 300px;
+  }
+  
+  .order-success h3 {
+    color: #ff69b4;
+  }
+  
+  .order-success ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-success ul li {
+    text-align: left;
+    margin: 5px 0;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #ff69b4;
+  }
+  
+  .close-button:hover {
+    color: #ff1493; 
+  }
